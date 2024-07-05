@@ -1,7 +1,7 @@
 const express = require('express')
 const cors = require('cors')
-const config = require('./config.js')
-const firebase = require('./firebase.js')
+const config = require('../config.js')
+const firebase = require('../firebase.js')
 const { getFirestore } = require('firebase-admin/firestore');
 const app = express()
 
@@ -16,6 +16,7 @@ app.get('/', async (req, res) => {
     // snapshot.forEach((doc) => {
     //     res.send(doc.data())
     // });
+    res.send("Hello, this is my rest api backend section. To use it, please visit <a href='https://adityoarr-api-list.vercel.app/'>https://adityoarr-api-list.vercel.app/</a>")
 })
 
 // ayat kursi
