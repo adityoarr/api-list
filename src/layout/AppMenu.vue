@@ -15,6 +15,16 @@ const model = ref([
                 label: 'Islam',
                 icon: 'pi pi-fw pi-bookmark',
                 to: '/islam'
+            },
+            {
+                label: 'Indonesia',
+                icon: 'pi pi-fw pi-bookmark',
+                to: '/indonesia'
+            },
+            {
+                label: 'Dunia',
+                icon: 'pi pi-fw pi-bookmark',
+                to: '/dunia'
             }
         ]
     }
